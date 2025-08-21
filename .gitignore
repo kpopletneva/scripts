@@ -1,0 +1,32 @@
+# ────────────── Python ──────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ──────────── Visual Studio 2019 / 2022 ────────────
+
+# Local VS “suo” (Solution User Options) files
+*.suo
+
+# VS “user” files (per-user settings for projects)
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS 2015–2019 database files
+*.VC.db
+*.VC.VC.opendb
+
+# Python project file user settings (if using Python Tools for VS)
+*.pyproj.user
+
+# Visual Studio workspace/.vs folder (contains caches, .suo, etc.)
+.vs/
