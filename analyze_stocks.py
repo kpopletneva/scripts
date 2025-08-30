@@ -1,6 +1,4 @@
-﻿import sys
-import pandas as pd
-
+#!/usr/bin/env python3
 """
 Merges account activity and portfolio positions csv reposts from Fidelity.
 Drops some of the report columns.
@@ -10,7 +8,13 @@ Generates two tables:
 
 Use: 
 python analyze_stocks.py <history_for_account>.csv <portfolio_positions>.csv
+
+Prerequisites:
+pip install pandas
 """
+
+import sys
+import pandas as pd
 
 columns = {
     "date": "Run Date", 
@@ -129,4 +133,5 @@ class GenerateReport():
 
 if __name__ == "__main__":
     report = GenerateReport()
+
     report.summary()
